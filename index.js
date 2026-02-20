@@ -17,8 +17,7 @@ const negativeArray = new Array(-1);
 // ERROR: Unreachable code
 function test() {
   return 42;
-console.log("This will never be executed");
-  cconsole.log("Never reaches here");    
+console.log("This will never be executed");  
 }
 
 // ERROR: Missing semicolons
