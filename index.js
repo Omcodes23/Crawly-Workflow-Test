@@ -10,3 +10,5 @@ null.toString();
 // ERROR: Reference error - using variable before declaration
 console.log(x);
 var x = 5;
+// ERROR: Range error - creating an array with negative length
+const negativeArray = new Array(-1);
