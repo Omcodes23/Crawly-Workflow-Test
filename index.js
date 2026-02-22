@@ -35,8 +35,7 @@ while (true) {
   let i = 0;
 }
 
-// ERROR: Division by zero
-const result = 10 / 0;
+
 
 // ERROR: Comparing with === incorrectly
 if ("5" === 5) {
