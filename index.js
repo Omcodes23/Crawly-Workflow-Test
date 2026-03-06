@@ -38,7 +38,7 @@ while (true) {
 
 
 // ERROR: Comparing with === incorrectly
-if ("5" === 5) {
+if ("5" === 5) 
   console.log("This won't execute");
 }
 
